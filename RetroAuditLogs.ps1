@@ -6,14 +6,23 @@ $textSpeed = 50
 #Windows Terminal Settings
 #Font Provider: https://www.kreativekorp.com/software/fonts/apple2.shtml
 
-#"name": "Retro Audit Logs",
-#"fontFace": "Print Char 21",
-#"experimental.retroTerminalEffect": true,
-#"cursorShape": "filledBox",
-#"useAcrylic": true,
-#"acrylicOpacity": 0.8,
-#"commandline": "powershell.exe",
-#"hidden": false
+#"initialCols": 160,
+#"initialRows": 40,
+#"profiles":
+#[
+#	{
+#		// Retro Audit Logs
+#		"guid": "{enter-your-own-guid-here}",
+#		"name": "Retro Audit Logs",
+#		"fontFace": "Print Char 21",
+#		"experimental.retroTerminalEffect": true,
+#		"cursorShape": "filledBox",
+#		"useAcrylic": true,
+#		"acrylicOpacity": 0.8,
+#		"commandline": "powershell.exe",
+#		"hidden": false
+#	}
+#]
 
 Function Get-Logs {param($record,$days)
 	clear
