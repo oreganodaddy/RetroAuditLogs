@@ -30,4 +30,3 @@ And you'll need to add these changes to you Windows Terminal setting.json file:
         "hidden": false
       }
     ]
-            
