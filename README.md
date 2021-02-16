@@ -12,21 +12,4 @@ This script specifies how to give Windows Terminal an Apple II retro look and al
 None of the retro styling is required for the script to do it's basic job however.
 
 For the retro look I used, you'll need the Apple II "Print Char 21" font from : https://www.kreativekorp.com/software/fonts/apple2.shtml
-And you'll need to add these changes to you Windows Terminal setting.json file:
-  "initialCols": 160,
-  "initialRows": 40,
-  "profiles":
-    [
-      {
-        // Retro Audit Logs profile
-        "guid": "{create a guid for yourself}",
-        "name": "Retro Audit Logs",
-        "fontFace": "Print Char 21",
-        "experimental.retroTerminalEffect": true,
-        "cursorShape": "filledBox",
-        "useAcrylic": true,
-        "acrylicOpacity": 0.8,
-        "commandline": "powershell.exe",
-        "hidden": false
-      }
-    ]
+And you'll need to add these changes to you Windows Terminal settings.json file which are specified in the script.
