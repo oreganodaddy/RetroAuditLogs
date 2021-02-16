@@ -2,11 +2,7 @@
 
 Here's a retro style "look busy" Powershell script that actually does something.
 
-Prerequisites:
-
-Microsoft365 Subscription
-
-Windows Terminal
+Prerequisites: Microsoft365 Subscription & Windows Terminal
 
 After running the script and logging in with a Microsoft365 account that has appropriate permissions, the script will continually pull down logs from the Compliance Center and display them onscreen.
 
